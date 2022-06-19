@@ -4,7 +4,7 @@ TUTORIAL ON DOCKER SYSTEM MONGO DATABASE
 
 Prepared By : 
 
-| First Header  | Second Header |
+| NAME  | MATRIC NO. |
 | ------------- | ------------- |
 | MUHAMMAD NOR ZAFRI BIN AHMAD  | 1913139  |
 | MUHAMMAD FARIS BIN MUSA  | 2013259  |
@@ -18,6 +18,10 @@ Your job is to write a tutorial to deploy a complete Apache/NGINX, PHP, MONGODB/
 
 
 # Steps and procedures of installation
+
+1. Download docker from the official website https://docs.docker.com/desktop/windows/install/
+2. Run the installer and finish the installation
+3. Open the application and finish the setup
 
 # Examples of code and commands
 

@@ -13,15 +13,39 @@ Prepared By :
 
 # Introduction
 
-Your job is to write a tutorial to deploy a complete Apache/NGINX, PHP, MONGODB/MYSQL and PHPMYADMIN service on your choice of OS platform.   The tutorial is due 2 weeks and must be in github. Submit a file with a link to your github link of the tutorial.   Tutorial must have the following:  * all submission must include group members names with matric IDs, only one member in a group must submit  * Introduction (introduce what docker is)  * Required Installation steps and procedures  * examples of code and commands  * Snapshot images of examples or examples  * A sample run   Good luck.
+Docker is an open source software platform to create, deploy and manage virtualized application containers on a common operating system (OS), with an ecosystem of allied tools. Docker container technology debuted in 2013; Docker Inc. was formed to support a commercial edition of container management software and be the principal sponsor of an open source version. Mirantis acquired the Docker Enterprise business in November 2019.
 
 
 
 # Steps and procedures of installation
 
+## Installation of Docker
+
 1. Download docker from the official website https://docs.docker.com/desktop/windows/install/
+![1](https://user-images.githubusercontent.com/84853773/174477254-4105c004-0dbe-439c-bc8e-ec883099013e.png)
 2. Run the installer and finish the installation
 3. Open the application and finish the setup
+
+## Installation of WSL 2
+
+1. Download WSL 2 from Microsoft's official website here https://docs.microsoft.com/en-us/windows/wsl/install-manual
+![11](https://user-images.githubusercontent.com/84853773/174477278-9bd8ab7f-8ac9-4928-bf58-46569004a7f2.png)
+2. Run the installer and finish the istallation  
+![13](https://user-images.githubusercontent.com/84853773/174477283-60f03df8-6330-4d75-bc5b-251e8970b1e4.png)
+
+## Installation of MongoDB
+
+1. Open Docker Desktop
+2. Search for MongoDB at home page
+3. Click the "Run" button to proceed the installation
+![15](https://user-images.githubusercontent.com/84853773/174477288-4f794651-da10-494b-b7e1-8f8422756dda.png)
+4. After completed the installation, open Windows Powershell
+5. Type the “docker run -d -p 82:82 --name group-2-os mongo:latest” command inside the Powershell to create a container for the database.
+![17](https://user-images.githubusercontent.com/84853773/174482307-ed20d3b5-f6d6-471f-aec6-272ee2e0ea14.png)
+6. Closed the Win Powershell
+7. Open the docker again and we will see the new container was created. Make sure we choose the correct container and open the terminal.
+![18](https://user-images.githubusercontent.com/84853773/174477294-8e9ce0bf-ff1c-4bc2-a599-592332bd966f.png)
+8. Type "mongosh" on the terminal and you are good to go
 
 # Examples of code and commands
 

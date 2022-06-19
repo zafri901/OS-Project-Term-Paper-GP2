@@ -10,6 +10,15 @@ Prepared By :
 | MUHAMMAD FARIS BIN MUSA  | 2013259  |
 | MUHAMMAD ALI ASGHAR BIN MUHAMMAD NASIR  | 1918589  |
 
+# CONTENT
+
+1. Introduction
+2. Steps and procedures of installation
+3. Installation of Docker
+4. Installation of WSL 2
+5. Installation of MongoDB
+6. Examples of code and commands
+7. Sample run MongoDB
 
 # Introduction
 
@@ -65,5 +74,14 @@ Docker is an open source software platform to create, deploy and manage virtuali
 | db.COLLECTION_NAME.save({_id:ObjectId(),NEW_DATA})  | To save document in collection execute the following command  |
 | db.COLLECTION_NAME.remove(DELLETION_CRITTERIA)  | To delete document in selected collection execute the following command  |
 
-# Sample run 
+# Sample run MongoDB
+
+1. Type "mongosh" to start
+![mongosh1](https://user-images.githubusercontent.com/84853773/174483109-e611681d-4b2c-43f9-b9fa-1c5c526c2ed9.png)
+2. Type "use clinic" to enter clinic database. Create a new collection using "db.createCollection(name)" command
+![mongosh2](https://user-images.githubusercontent.com/84853773/174483113-b1e537e8-8656-4b81-adf2-935641d14155.png)
+3. By using db.instrumentone.insertMany() to enter the data into our database
+![mongosh3](https://user-images.githubusercontent.com/84853773/174483115-b4bc5201-5255-4a1b-9b58-49a1125e6d1e.png)
+4. View the database using "db.COLLECTION_NAME.find()" command
+![Screenshot (198)](https://user-images.githubusercontent.com/84853773/174483117-0a195b2d-cbad-4485-9623-eba73382ac86.png)
 

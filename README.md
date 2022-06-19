@@ -12,13 +12,13 @@ Prepared By :
 
 # CONTENT
 
-1. Introduction
-2. Steps and procedures of installation
-3. Installation of Docker
-4. Installation of WSL 2
-5. Installation of MongoDB
-6. Examples of code and commands
-7. Sample run MongoDB
+1. [Introduction](https://github.com/zafri901/OS-Project-Term-Paper-GP2/blob/main/README.md#introduction)
+2. [Steps and procedures of installation](https://github.com/zafri901/OS-Project-Term-Paper-GP2/blob/main/README.md#steps-and-procedures-of-installation)
+3. [Installation of Docker](https://github.com/zafri901/OS-Project-Term-Paper-GP2/blob/main/README.md#installation-of-docker)
+4. [Installation of WSL 2](https://github.com/zafri901/OS-Project-Term-Paper-GP2/blob/main/README.md#installation-of-wsl-2)
+5. [Installation of MongoDB](https://github.com/zafri901/OS-Project-Term-Paper-GP2/blob/main/README.md#installation-of-mongodb)
+6. [Examples of code and commands](https://github.com/zafri901/OS-Project-Term-Paper-GP2/blob/main/README.md#examples-of-code-and-commands)
+7. [Sample run MongoDB](https://github.com/zafri901/OS-Project-Term-Paper-GP2/blob/main/README.md#sample-run-mongodb)
 
 # Introduction
 
